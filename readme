@@ -1,0 +1,30 @@
+
+说明
+数据库操作。
+1.打开dos控制台。
+	windows下快捷键：win+R,输入cmd,回车。
+	
+2.使用root登录mysql数据库。
+	输入：mysql -u root -p 回车
+	输入密码 回车
+
+2.导入数据库和数据
+在data文件夹中有两个sql文件
+	输入1：source create.sql; 必须有分号，回车。
+	输入2：source H:/PHP-WEB/zwhz/data/data.sql;
+其中 "H:/PHP-WEB/zwhz/data/" 是路径
+	
+3.增加数据库用户
+	输入：grant ALL on zwhz.* to zwhz@127.0.0.1 identified by "zwhz2013";
+	输入：grant ALL on zwhz.* to zwhz@localhost identified by "zwhz2013";
+
+4。备份数据库
+	mysqldump -u root -p zwhz> data.sql
+	
+	
+php 配置
+原因：上传文件默认大小太小
+修改 upload_max_filesize = 128M 
+     post_max_size = 128M
+	 memory_limit = 128M 
+	

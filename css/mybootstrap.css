@@ -1,0 +1,21 @@
+.carousel-control{
+	top: 60%;
+	left: 5px;
+	display: none;
+}
+
+.nav {
+	margin-bottom: 5px;
+}
+
+.carousel-caption {
+	text-align: center;
+	padding: 5px;
+}
+
+.page-header {
+	margin: 20px;
+	text-align: center;
+	color: rgb(37, 202, 37);
+}
+
