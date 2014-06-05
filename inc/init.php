@@ -9,7 +9,7 @@ ini_set('upload_max_filesize','128M');
 date_default_timezone_set('Asia/Shanghai');
 
 //define('DB_HOST','webe.nenu.edu.cn');
-define('DB_HOST','127.0.0.1');
+define('DB_HOST','localhost');
 define('DB_USER','zwhz');
 define('DB_PASS','zwhz2013');
 define('DB_NAME','zwhz');
